@@ -1,0 +1,119 @@
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    animation: ani 1.5s forwards;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20pt;
+    animation: ani 1.5s forwards;
+}
+
+.img {
+    width: 66%;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    animation: ani 1.5s forwards;
+}
+
+
+
+.cgg {
+    font-size: 16px;
+    text-align: justify;
+    font-family: serif;
+    animation: ani 1.5s forwards;
+}
+
+.cg_tab {
+    width: 70%;
+
+    display: none;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    animation: ani 1.5s forwards;
+}
+
+.cg_tab.active {
+    display: block;
+    animation: ani 1.5s forwards;
+}
+body {
+    animation: ani 1.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+.btn {
+    background-color: red;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+
+}
+
+.butt {
+    padding: 4px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 16%;
+
+}
+
+.butt-content {
+    display: none;
+    position: top;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: auto;
+    margin: auto;
+
+}
+.butt-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.butt-content a:hover {background-color: #ddd}
+.butt:hover .butt-content {
+    display: block;
+}
+
+.btn:hover, .butt:hover .tap  {
+    background-color: red;
+}
+
+input {
+    margin: .4rem;
+}
+.swipe {
+    animation: ani 2.5s forwards;
+    padding: 1px;
+    margin-left: 16%;
+
+}
+.btn_style {
+    background-color: red ;
+    color: white; 
+    font-size: 16;
+}
+c {
+    background-color: red;
+    color: white;
+    font-size: 32px;
+    padding: 8px;
+    left: 0%;
+    text-align: center;
+    position: relative;
+}
